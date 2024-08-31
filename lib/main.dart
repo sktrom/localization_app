@@ -72,7 +72,7 @@ class HomePage extends StatelessWidget {
               right: isArabic() ? 16 : 0,
             ),
             child: Text(
-              S.of(context).name,
+              S.of(context).age,
               style: const TextStyle(fontSize: 30),
             ),
           ),
